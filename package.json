@@ -1,0 +1,14 @@
+{
+  "name": "live-coding",
+  "version": "1.0.0",
+  "description": "PostCSS Live Coding",
+  "author": "Diogo Felix <diogo2fex@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel --no-cache index.html",
+    "build": "parcel build --no-cache index.html"
+  },
+  "dependencies": {
+    "parcel": "^1.12.3"
+  }
+}
