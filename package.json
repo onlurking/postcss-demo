@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1"
   }
 }
