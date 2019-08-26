@@ -12,6 +12,7 @@
     "parcel": "^1.12.3"
   },
   "devDependencies": {
-    "autoprefixer": "^9.6.1"
+    "autoprefixer": "^9.6.1",
+    "postcss-nesting": "^7.0.1"
   }
 }

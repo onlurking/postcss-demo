@@ -64,10 +64,8 @@ a, a:link, a:visited {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
-}
 
-@media screen and (max-width: 768px) {
-  .portfolio_wrapper {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 }
