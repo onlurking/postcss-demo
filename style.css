@@ -2,15 +2,19 @@
   margin: 0px;
 }
 
+$brand-color: #7d97ad;
+$primary-color: #2d3c49;
+$secundary-color: #02b3e4;
+
 a, a:link, a:visited {
   text-decoration: none;
-  color: #2d3c49;
+  color: $primary-color;
 }
 
 .navbar {
   align-items: center;
   display: flex;
-  border-bottom: 3px solid #7d97ad;
+  border-bottom: 3px solid $brand-color;
   justify-content: space-between;
   padding: 16px;
 }
@@ -21,7 +25,7 @@ a, a:link, a:visited {
   flex-direction: column;
   list-style: none;
   font-family: sans-serif;
-  color: #2d3c49;
+  color: $primary-color;
   order: 1;
 }
 
@@ -33,7 +37,7 @@ a, a:link, a:visited {
 
 .udacity_logo {
   height: 48px;
-  fill: #02b3e4;
+  fill: $secundary-color;
   order: 2;
   width: 48px;
 }
@@ -50,7 +54,7 @@ a, a:link, a:visited {
 }
 
 .portfolio_title {
-  color: #7D98AD;
+  color: $brand-color;
   display: flex;
   font-size: 28px;
   font-family: sans-serif;
@@ -79,7 +83,7 @@ a, a:link, a:visited {
 }
 
 .portifolio_title {
-  color: #2d3c49;
+  color: $primary-color;
   margin-top: 16px;
   font-size: 22px;
   text-transform: uppercase;

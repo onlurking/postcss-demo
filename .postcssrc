@@ -3,6 +3,7 @@
     "autoprefixer": {},
     "postcss-nesting": {},
     "colorguard": {},
+    "postcss-simple-vars": {},
     "postcss-reporter": {}
   }
 }
