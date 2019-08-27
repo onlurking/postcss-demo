@@ -1,4 +1,4 @@
 {
   "defaultSeverity": "error",
-  "extends": "stylelint-config-lintheus"
+  "extends": "stylelint-config-lintheus",
 }
