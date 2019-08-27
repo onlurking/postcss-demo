@@ -3,6 +3,7 @@
     "autoprefixer": {},
     "postcss-nesting": {},
     "colorguard": {},
+    "postcss-preset-env": { "stage": 1 },
     "postcss-reporter": {}
   }
 }

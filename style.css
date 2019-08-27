@@ -3,15 +3,23 @@
   margin: 0;
 }
 
+@custom-media --tablet (min-width: 768px);
+
+:root {
+  --brand-color: #7d97ad;
+  --primary-color: #2d3c49;
+  --secundary-color: #02b3e4;
+}
+
 /* stylelint-disable-next-line selector-max-type */
-a, a:link, a:visited {
-  color: #2d3c49;
+a, :any-link {
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 .navbar {
   align-items: center;
-  border-bottom: 3px solid #7d97ad;
+  border-bottom: 3px solid var(--brand-color);
   display: flex;
   justify-content: space-between;
   padding: 16px;
@@ -19,7 +27,7 @@ a, a:link, a:visited {
 
 .navbar__items {
   align-items: flex-end;
-  color: #2d3c49;
+  color: var(--primary-color);
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
@@ -34,7 +42,7 @@ a, a:link, a:visited {
 }
 
 .udacity__logo {
-  fill: #02b3e4;
+  fill: var(--secundary-color);
   height: 48px;
   order: 2;
   width: 48px;
@@ -52,7 +60,7 @@ a, a:link, a:visited {
 }
 
 .portfolio__title {
-  color: #7d98ad;
+  color: var(--brand-color);
   display: flex;
   font-family: sans-serif;
   font-size: 28px;
@@ -67,7 +75,7 @@ a, a:link, a:visited {
   display: flex;
   flex-direction: column;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (--tablet) {
     flex-direction: row;
     justify-content: space-evenly;
   }
@@ -82,7 +90,7 @@ a, a:link, a:visited {
 }
 
 .portifolio__title {
-  color: #2d3c49;
+  color: var(--primary-color);
   font-size: 22px;
   margin-top: 16px;
   text-transform: uppercase;
