@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel --no-cache index.html",
-    "build": "parcel build --no-cache index.html"
+    "build": "parcel build --no-cache index.html",
+    "lint": "stylelint '**/*.css'"
   },
   "dependencies": {
     "parcel": "^1.12.3"
@@ -16,6 +17,8 @@
     "colorguard": "^1.2.1",
     "postcss-nesting": "^7.0.1",
     "postcss-reporter": "^6.0.1",
-    "postcss-simple-vars": "^5.0.2"
+    "postcss-simple-vars": "^5.0.2",
+    "stylelint": "^10.1.0",
+    "stylelint-config-lintheus": "^1.1.0"
   }
 }
